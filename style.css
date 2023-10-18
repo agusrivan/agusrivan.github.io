@@ -1,0 +1,53 @@
+.jumbotron {
+  background-color: rgb(223, 222, 222);
+  padding-top: 5rem;
+}
+
+.jumbotron h1 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+}
+
+.jumbotron img {
+  margin-top: 15px;
+}
+
+.about p {
+  margin-top: 20px;
+}
+
+.projects {
+  background-color: rgb(223, 222, 222);
+}
+
+.projects img {
+  margin-bottom: 15px;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* Responsive Desktop */
+@media (min-width: 992px) {
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+
+  .jumbotron p {
+    font-size: 20px;
+  }
+}
